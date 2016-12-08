@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="connect_times">
+        <item quantity="other">@string/connect_info2</item>
+        <item quantity="one">@string/connect_info1</item>
+    </plurals>
+</resources>

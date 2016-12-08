@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="red">#ffff0000</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="gray">#33000000</item>
+    <item type="drawable" name="pink">#fff88bb9</item>
+    <item type="drawable" name="pink_light">#fffcbcd7</item>
+    <item type="drawable" name="white">#ffffffff</item>
+</resources>

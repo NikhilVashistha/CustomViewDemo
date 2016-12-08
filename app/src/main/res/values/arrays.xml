@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bt_searching">
+        <item>searching.</item>
+        <item>searching..</item>
+        <item>searching...</item>
+    </string-array>
+    <string-array name="toco_reset_array">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="fr_month">
+        <item>JAN.</item>
+        <item>FEB.</item>
+        <item>MAR.</item>
+        <item>APR.</item>
+        <item>MAY.</item>
+        <item>JUN.</item>
+        <item>JUL.</item>
+        <item>AUG.</item>
+        <item>SEP.</item>
+        <item>OCT.</item>
+        <item>NOV.</item>
+        <item>DEC.</item>
+    </string-array>
+</resources>

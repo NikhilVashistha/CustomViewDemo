@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="back_btn_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">22.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/back_btn_selector</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="navigation_style">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_item_bg_selector</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="menu_item_style">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">13.0dip</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_push_bottom_out</item>
+    </style>
+    <style name="MyDialogStyleBtConnect" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/icon_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="verticalline">
+        <item name="android:background">@color/gray_line</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="horizontalline">
+        <item name="android:background">@color/gray_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="progressbar_circle">
+        <item name="android:maxWidth">60.0dip</item>
+        <item name="android:maxHeight">60.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle</item>
+        <item name="android:minWidth">35.0dip</item>
+        <item name="android:minHeight">35.0dip</item>
+    </style>
+    <style name="babyinfo_drawer_error_vertical_line">
+        <item name="android:background">#fffb6175</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="list_item_round_fam">
+        <item name="android:background">@drawable/background_view_rounded_fam</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="list_item_round">
+        <item name="android:background">@drawable/background_view_rounded</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="list_item_top">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/background_view_rounded_top1</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="list_item_bottom">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/background_view_rounded_bottom1</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>
